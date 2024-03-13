@@ -30,6 +30,8 @@ This is just the beginning! With a little more code, you can add features like p
 
 ## Features
 
+
+- You can listen the music without Ads
 - Responsiveness:The website adapts its layout to fit screen 
 - Playback Controls: Play, pause, previous,
 - Visual Feedback: Progress bar that updates in real-time
