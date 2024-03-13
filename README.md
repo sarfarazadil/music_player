@@ -14,7 +14,7 @@ The HTML provides the foundation, CSS steps in, adding style and turning your ba
 This is just the beginning! With a little more code, you can add features like playlists, Most played, favorite.....
 
 ## Laptop Preveiw    
-"Screenshot"
+
 
 ![](./image/laptoppic.png)
 
