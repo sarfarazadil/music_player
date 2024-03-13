@@ -1,7 +1,6 @@
 let currentsong = new Audio();
 let songs;
 
-
 function secondsToMinutesSeconds(seconds) {
     if (isNaN(seconds) || seconds < 0) {
         return "00:00";
@@ -14,12 +13,8 @@ function secondsToMinutesSeconds(seconds) {
 }
 
 
-
-
-
-
 async function getsongs(){
-let a = await fetch("http://127.0.0.1:5501/songs/");
+let a = await fetch("http://127.0.0.1:5500/music_player/songs/");
 let response = await a.text();
 // console.log(response);
 let div = document.createElement("div");
@@ -39,7 +34,7 @@ return songs;
 
 const playmusic = (track, pause= false )=>{
     // let audio = new Audio("http://127.0.0.1:5501/songs/" +track+ ".mp3");
-    currentsong.src = "http://127.0.0.1:5501/songs/"+track+".mp3"
+    currentsong.src = "http://127.0.0.1:5500/music_player/songs/"+track+".mp3"
     if(!pause){
         currentsong.play();
         play.src = "./svg/pause.svg"
