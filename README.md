@@ -8,7 +8,7 @@ I'm a Frontend developer who builds the visible parts of websites and apps. I us
 
 
 
-## MIT Time Table
+## Music Player
 This Music Player website Built with the building blocks of the web - HTML, CSS, and JavaScript .   
 The HTML provides the foundation, CSS steps in, adding style and turning your basic layout into a sleek music interface. Finally, JavaScript brings the magic.          
 This is just the beginning! With a little more code, you can add features like playlists, Most played, favorite.....
@@ -30,6 +30,8 @@ This is just the beginning! With a little more code, you can add features like p
 - Responsiveness:The website adapts its layout to fit screen 
 - Playback Controls: Play, pause, previous,
 - Visual Feedback: Progress bar that updates in real-time
+- Progress bar: Visual indicator of the song's current playback position.
+
 
 
 
