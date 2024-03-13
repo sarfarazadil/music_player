@@ -17,12 +17,15 @@ This is just the beginning! With a little more code, you can add features like p
 "Screenshot"
 
 ![](./image/laptoppic.png)
+
 ## Mobile Preveiw
 
-![](./image/bothpic.png)
-<!-- ## Screenshots Preveiw
+![](./image/singlefpic.png)
 
-![](https://via.placeholder.com/468x300?text=App+Screenshot+Here) -->
+## Mobile Preveiw
+
+![](./image/singlebpic.png)
+
 
 
 ## Features
