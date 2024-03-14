@@ -25,18 +25,18 @@
     }
     .seekbar{
         width: 93%;
-        bottom: 19px;
+        bottom: 24px;
     }
     .playbar{
         /* height: 60px; */
-        height: 150px;
+        height: 20vh;
         /* width: 84.5%; */
         width: calc(100vw - 55px);
         position: absolute;
-        bottom: 2px;
+        bottom: 32px;
         border-radius: 4px;
 
-       background-color: #b1b197;
+       background-color:#b1b197;
     }
     .card{
         width: 92%;
