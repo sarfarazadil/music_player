@@ -8,7 +8,10 @@ I'm a Frontend developer who builds the visible parts of websites and apps. I us
 
 
 
-## Music Player  link ->  https://regal-mermaid-6cd743.netlify.app/
+# Music Player  
+## Netlify link ->  https://regal-mermaid-6cd743.netlify.app/
+## GitHub Live link ->  https://sarfarazadil.github.io/music_player/
+
 
 This Music Player website Built with the building blocks of the web - HTML, CSS, and JavaScript .   
 The HTML provides the foundation, CSS steps in, adding style and turning your basic layout into a sleek music interface. Finally, JavaScript brings the magic.          
