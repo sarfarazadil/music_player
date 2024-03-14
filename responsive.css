@@ -36,7 +36,7 @@
         bottom: 32px;
         border-radius: 4px;
 
-       background-color:#b1b197;
+       background-color: #b1b197;
     }
     .card{
         width: 92%;
@@ -101,7 +101,7 @@
         color: #171708;
     }
     .loginbtn{
-        padding: 5px 10px;
+        padding: 2px 10px;
         font-size: 1rem;
         background-color: #dadad8;
     }
@@ -115,8 +115,8 @@
 
     }
     .moxie{
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
     }
 
 }

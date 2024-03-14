@@ -1,6 +1,3 @@
-// this is new java script file .other file script.js is not working properly
-
-
 let li_arr =[ "All We Know", "Cheap Thrills", "Closer","Delicate" ,"I Like Me Better", "Interstellar" ,"Kesariya", "Kun Faya Kun" ,"One Direction" ,"Perfect" ,"Treat You Better" ,"We Dont Talk" ,"Who Says" ,"Wildest Dreams" ]
 let card_arr =[ "All We Know", "Cheap Thrills", "Closer", "Delicate" ,"I Like Me Better", "Interstellar" ,"Kesariya", "Kun Faya Kun" ,"One Direction" ,"Perfect" ,"Treat You Better" ,"We Dont Talk" ,"Who Says" ,"Wildest Dreams" ]
 
@@ -8,7 +5,7 @@ let card_arr =[ "All We Know", "Cheap Thrills", "Closer", "Delicate" ,"I Like Me
 // Initialize the Variables
 let index =0;
 let songIndex = 0;
-let audioelement = new Audio('./songs/1.mp3');
+let audioelement = new Audio('./songs/3.mp3');
 let masterPlay = document.getElementById('play');
 // let myProgressBar = document.getElementById('myProgressBar');
 // let gif = document.getElementById('gif');
@@ -56,7 +53,7 @@ let songs = [
 
 audioelement.addEventListener("timeupdate" , ()=>{
     // console.log(audioelement.currentTime , audioelement.duration);
-    document.querySelector(".songtime").innerHTML = `${secondsToMinutesSeconds(audioelement.currentTime)}`/`${secondsToMinutesSeconds(audioelement.duration)}`
+    document.querySelector(".songtime").innerHTML = `${secondsToMinutesSeconds(audioelement.currentTime)}/${secondsToMinutesSeconds(audioelement.duration)}`
     document.querySelector(".circle").style.left = (audioelement.currentTime/audioelement.duration)*100+"%";
     
 })
@@ -167,5 +164,5 @@ document.getElementById('previous').addEventListener('click', ()=>{
     play.src="./svg/pause.svg" 
     audioelement.currentTime = 0;
     audioelement.play();
-
+  
 })
