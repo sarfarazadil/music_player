@@ -292,6 +292,10 @@ body{
     position: absolute;
     left: -100%;
 }
+.extra{
+    height: 7vh; 
+    width: 40%;
+}
 
 
 
